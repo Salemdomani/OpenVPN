@@ -62,4 +62,3 @@ C:\Users\asus\Desktop\share\OpenVPN\OpenVPN\obj\Release\OpenVPN.Properties.Resou
 C:\Users\asus\Desktop\share\OpenVPN\OpenVPN\obj\Release\OpenVPN.csproj.GenerateResource.Cache
 C:\Users\asus\Desktop\share\OpenVPN\OpenVPN\obj\Release\OpenVPN.exe
 C:\Users\asus\Desktop\share\OpenVPN\OpenVPN\obj\Release\OpenVPN.pdb
-C:\Users\asus\Desktop\share\OpenVPN\OpenVPN\obj\Release\OpenVPN.exe.licenses

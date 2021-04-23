@@ -68,8 +68,8 @@ namespace OpenVPN
             var db = new OpenVPNDataClassesDataContext();
             foreach (var account in db.Accounts)
             {
-                File.WriteAllText(path + "/" + account.Username.TrimEnd() + ".ovpn",
-                    account.Certificate + "\n" + account._Key);
+                var file = Properties.Resources.ovpn.Replace("?", account.Certificate).Replace("!", account._Key);
+                File.WriteAllText(path + "/" + account.Username.TrimEnd() + ".ovpn", file);
             }
         }
 

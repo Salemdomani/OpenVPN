@@ -55,7 +55,8 @@ namespace OpenVPN
             dir.ShowDialog();
             var path = dir.SelectedPath;
             var account = new OpenVPNDataClassesDataContext().Accounts.Single(x => x.Username == UsersComboBox.EditValue.ToString().TrimEnd());
-            File.WriteAllText(path + "/" + account.Username.TrimEnd() + ".ovpn", account.Certificate + "\n" + account._Key);
+            var file= Properties.Resources.ovpn.Replace("?", account.Certificate).Replace("!", account._Key);
+            File.WriteAllText(path + "/" + account.Username.TrimEnd() + ".ovpn", file);
 
         }
 

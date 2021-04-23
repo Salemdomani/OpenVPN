@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="OpenVPNDataClasses">
+  <DataContextMoniker Name="/OpenVPNDataClassesDataContext" />
+  <nestedChildShapes>
+    <classShape Id="7bbaf554-c847-4b3a-8110-6c2e72beca12" absoluteBounds="4.375, 2.25, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/OpenVPNDataClassesDataContext/Account" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3a387c2c-377d-48e6-8f5f-f636be364800" absoluteBounds="4.39, 2.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
